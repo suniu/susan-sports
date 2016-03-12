@@ -1,0 +1,26 @@
+html{
+	background-color: blue;
+}
+
+li{
+	font-size: 20px;
+    display: inline-block;
+    width: 24%;
+    text-align:center;
+
+}
+
+li a{
+	text-decoration: none;
+	border: 1px solid #090D66;
+	padding: 10px;
+	border-radius: 5px;
+	background-color: rgba(255,255,255,.5);
+	color: blue;
+	transition: background-color .5s, color .5s;
+}
+
+li a:hover{
+	background-color: #090D66;
+	color: white;
+}
